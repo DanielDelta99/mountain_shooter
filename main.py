@@ -1,3 +1,5 @@
+import sys
+
 import pygame
 
 print('Setup start')
@@ -8,7 +10,7 @@ print('Setup End')
 print('Loop Start')
 while True:
     # Check for all events
-    for envet in pygame.event.get():
-        if envet.type == pygame.QUIT:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
             pygame.quit()  # Close Window
-            quit()  # end pygame
+            sys.exit()  # end pygame
