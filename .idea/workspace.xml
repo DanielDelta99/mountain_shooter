@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19783dd3-ebd5-4426-ab6e-73555928303b" name="Changes" comment="Add requirements.txt">
-      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/entityfactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
+    <list default="true" id="19783dd3-ebd5-4426-ab6e-73555928303b" name="Changes" comment="Creating main loop&#10;Connecting Menu and Game classes">
+      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/DD99/Documents/GitHub/mountain_shooter/code",
+    "last_opened_file_path": "C:/Users/DD99/Documents/GitHub/mountain_shooter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,8 +68,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DD99\Documents\GitHub\mountain_shooter\code" />
       <recent name="C:\Users\DD99\Documents\GitHub\mountain_shooter" />
+      <recent name="C:\Users\DD99\Documents\GitHub\mountain_shooter\code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DD99\Documents\GitHub\mountain_shooter\code" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,7 +124,7 @@
       <workItem from="1779491398402" duration="8000" />
       <workItem from="1779713940622" duration="1861000" />
       <workItem from="1779715814171" duration="2537000" />
-      <workItem from="1779739050814" duration="2299000" />
+      <workItem from="1779739050814" duration="6539000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -145,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779717837852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding classes generated from StarUML">
+      <option name="closed" value="true" />
+      <created>1779743229091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779743229091</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creating main loop&#10;Connecting Menu and Game classes">
+      <option name="closed" value="true" />
+      <created>1779744566509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779744566509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,9 +181,11 @@
     </ignored-roots>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add requirements.txt" />
+    <MESSAGE value="adding classes generated from StarUML" />
+    <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting Menu and Game classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mountain_shooter$main.coverage" NAME="main Coverage Results" MODIFIED="1779715328723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mountain_shooter$main.coverage" NAME="main Coverage Results" MODIFIED="1779747347762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
