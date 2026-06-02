@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19783dd3-ebd5-4426-ab6e-73555928303b" name="Changes" comment="Creating main loop&#10;Connecting Menu and Game classes">
-      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+    <list default="true" id="19783dd3-ebd5-4426-ab6e-73555928303b" name="Changes" comment="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entityfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityfactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,7 +64,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature__level",
     "last_opened_file_path": "C:/Users/DD99/Documents/GitHub/mountain_shooter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -124,7 +133,10 @@
       <workItem from="1779491398402" duration="8000" />
       <workItem from="1779713940622" duration="1861000" />
       <workItem from="1779715814171" duration="2537000" />
-      <workItem from="1779739050814" duration="6539000" />
+      <workItem from="1779739050814" duration="6800000" />
+      <workItem from="1780129062911" duration="34000" />
+      <workItem from="1780427995737" duration="18000" />
+      <workItem from="1780433466768" duration="6897000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -158,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779744566509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file">
+      <option name="closed" value="true" />
+      <created>1779747590023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779747590023</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,9 +203,10 @@
     <MESSAGE value="Add requirements.txt" />
     <MESSAGE value="adding classes generated from StarUML" />
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting Menu and Game classes" />
+    <MESSAGE value="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mountain_shooter$main.coverage" NAME="main Coverage Results" MODIFIED="1779747347762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mountain_shooter$main.coverage" NAME="main Coverage Results" MODIFIED="1780442137152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
