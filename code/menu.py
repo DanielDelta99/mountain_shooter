@@ -3,13 +3,13 @@ from pygame.font import Font
 from pygame.rect import Rect
 from pygame.surface import Surface
 
-from code.Const import WIN_WIDTH, COLOR_ORANGE, COLOR_WITHE, MENU_OPTION, COLOR_YELLOW
+from code.Const import WIN_WIDTH, COLOR_ORANGE, COLOR_WHITE, MENU_OPTION, COLOR_YELLOW
 
 
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuBg.png')
+        self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
@@ -28,7 +28,7 @@ class Menu:
                 if i == menu_option:
                     self.menu_text(20, MENU_OPTION[i], COLOR_YELLOW, ((WIN_WIDTH / 2), 160 + i * 20))
                 else:
-                    self.menu_text(20, MENU_OPTION[i], COLOR_WITHE, ((WIN_WIDTH / 2), 160 + i * 20))
+                    self.menu_text(20, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 160 + i * 20))
 
             pygame.display.flip()
 
