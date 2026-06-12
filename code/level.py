@@ -2,17 +2,17 @@
 # -*- coding: utf-8 -*-
 import random
 import sys
-from code.Const import C_WHITE, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CYAN
+from code.const import C_WHITE, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CYAN
 
 import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.Const import WIN_HEIGHT
+from code.const import WIN_HEIGHT
 from code.enemy import Enemy
 from code.entity import Entity
-from code.entityMediator import EntityMediator
-from code.entityfactory import Entityfactory
+from code.entity_mediator import EntityMediator
+from code.entity_factory import Entityfactory
 from code.player import Player
 
 

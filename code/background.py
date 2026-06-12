@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from os import name
 
-from code.Const import WIN_WIDTH, ENTITY_SPEED
+from code.const import WIN_WIDTH, ENTITY_SPEED
 from code.entity import Entity
 
 

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import pygame
 
-from code.Const import ENTITY_SPEED, ENTITY_SHOT_DELAY
-from code.enemyShot import EnemyShot
+from code.const import ENTITY_SPEED, ENTITY_SHOT_DELAY
+from code.enemy_shot import EnemyShot
 from code.entity import Entity
 
 
